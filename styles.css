@@ -1,0 +1,36 @@
+html {
+	font-size: 15px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.letters {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 35vh 35vh 35vh;
+}
+
+.letter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 100%;
+    border: 2px solid #7c7c7c;
+    background-color: transparent;
+    transition: all 0.07s;
+}
+
+.playing {
+	background-color: teal;
+	transform: scale(1.1);
+}
+
+kbd {
+    display: block;
+    font-size: 25px;
+    font-family: 'Arvo', serif;
+}
+
+.sound {
+	text-transform: uppercase;
+}

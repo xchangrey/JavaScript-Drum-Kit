@@ -3,7 +3,7 @@ window.addEventListener("keydown", function(e){
 	if(!audio)return;
 	audio.currentTime =0;
 	audio.play();
-	key.addClassList.add('playing');
+	letter.addClassList.add('playing');
 });
 
 function removeTransition(e){
@@ -11,5 +11,5 @@ function removeTransition(e){
 	this.classList.remove('playing');
 }
 
-const keys = document.querySelector('.key');
-keys.forEach(key => key.addEventListener('transitionend', removeTransition));
+const letters = document.querySelector('letter');
+letters.forEach(key => key.addEventListener('transitionend', removeTransition));
