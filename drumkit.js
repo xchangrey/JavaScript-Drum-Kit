@@ -5,6 +5,7 @@ function playSound(e){
 	audio.currentTime = 0;
 	audio.play();
 	letter.classList.add('playing');
+	console.log(letter);
 }
 
 function removeTransition(e){
