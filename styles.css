@@ -87,3 +87,13 @@ kbd {
 		height: 200px;
 	}
 }
+
+@media(max-width:500px){
+	.letters{
+		grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+	}
+
+	.letter {
+		height: 150px;
+	}	
+}
