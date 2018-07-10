@@ -23,6 +23,7 @@ html {
 .playing {
 	background-color: teal;
 	transform: scale(1.1);
+	color: #fff;
 }
 
 kbd {
