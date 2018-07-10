@@ -22,9 +22,46 @@ html {
 }
 
 .playing {
-	background-color: teal;
+	background-color: #424242!important;
 	transform: scale(1.1);
 	color: #fff;
+	border-color: #ff6f00;
+}
+
+div[data-key='68']{
+	background-color: #ce93d8;
+}
+
+div[data-key='82']{
+	background-color: #f48fb1;
+}
+
+div[data-key='85']{
+	background-color: #ff8a80;
+}
+
+div[data-key='77']{
+	background-color: #90caf9;
+}
+
+div[data-key='66']{
+	background-color: #b2ebf2;
+}
+
+div[data-key='69']{
+	background-color: #a7ffeb;
+}
+
+div[data-key='65']{
+	background-color: #b9f6ca;
+}
+
+div[data-key='84']{
+	background-color: #dcedc8;
+}
+
+div[data-key='83']{
+	background-color: #ffecb3;
 }
 
 kbd {
@@ -35,4 +72,11 @@ kbd {
 
 .sound {
 	text-transform: uppercase;
+}
+
+@media(max-width:767px){
+	.letters{
+		grid-template-columns: 200px 200px 200px;
+    	grid-template-rows: 200px 200px 200px;
+	}
 }
