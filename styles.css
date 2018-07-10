@@ -76,7 +76,11 @@ kbd {
 
 @media(max-width:767px){
 	.letters{
-		grid-template-columns: 200px 200px 200px;
-    	grid-template-rows: 200px 200px 200px;
+		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    	grid-template-rows: none;
+	}
+
+	.letter {
+		height: 200px;
 	}
 }
